@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=0.1.0
+Name=Annotator
+Comment=A simple image annotation tool.
+Exec=python "PATH_TO_FOLDER"/annotator.py
+Icon=accessories-text-editor
+Terminal=false
+Type=Application
+StartupNotify=true

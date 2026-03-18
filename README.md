@@ -2,7 +2,7 @@
 
 A GTK4 image annotation tool. Load an image, add callouts, labels, and arrows, then save the result as a PNG.
 
-![Example](example.png)
+![Example](/resources/example.png)
 
 ## Requirements
 
@@ -21,6 +21,11 @@ On Ubuntu/Debian:
 sudo apt install python3-gi gir1.2-gtk-4.0 gir1.2-adw-1 gir1.2-gdkpixbuf-2.0
 ```
 
+To add a desktop shortcut:
+
+- Edit the path to `annotator.py` in `/resources/annotator.desktop`
+- Copy `/resources/annotator.desktop` to `~/.local/share/applications`
+
 ## Running
 
 ```
@@ -36,9 +41,9 @@ python annotator.py
 
 ## Tools
 
-- **Callout** -- text box with a pointer arrow. Drag the arrowhead to reposition it.
-- **Label** -- text box without an arrow.
-- **Arrow** -- freestanding arrow. Click and drag to set direction and length.
+- **Callout:** text box with a pointer arrow. Drag the arrowhead to reposition it.
+- **Label:** text box without an arrow.
+- **Arrow:** freestanding arrow. Click and drag to set direction and length.
 
 Click a tool button again to return to Select mode.
 

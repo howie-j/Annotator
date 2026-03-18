@@ -18,7 +18,7 @@ import cairo
 
 # ── Constants ───────────────────────────────────────────────────────────────
 
-VERSION    = '0.0.1'
+VERSION    = '0.1.0'
 
 GRID       = 10
 BOX_RADIUS = 10
