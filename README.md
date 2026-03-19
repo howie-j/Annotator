@@ -18,7 +18,7 @@ sudo dnf install python3-gobject gtk4 libadwaita pango cairo-gobject
 On Ubuntu/Debian:
 
 ```
-sudo apt install python3-gi gir1.2-gtk-4.0 gir1.2-adw-1 gir1.2-gdkpixbuf-2.0
+sudo apt install python3-gi gir1.2-gtk-4.0 gir1.2-adw-1 gir1.2-gdkpixbuf-2.0 python3-gi-cairo
 ```
 
 To add a desktop shortcut:
