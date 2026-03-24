@@ -18,7 +18,7 @@ import cairo
 
 # ── Constants ───────────────────────────────────────────────────────────────
 
-VERSION    = '0.1.0'
+VERSION    = '0.1.1'
 
 GRID       = 10
 BOX_RADIUS = 10
@@ -31,9 +31,9 @@ MAX_UNDO   = 50
 
 # S / M / L size presets: arrow line width, arrowhead size, box padding x/y, font size
 SIZE_PRESETS = {
-    'S': dict(arrow_width=6.0, arrowhead=18, pad_x=16, pad_y=12, font_size=12),
-    'M': dict(arrow_width=9.0, arrowhead=27, pad_x=24, pad_y=18, font_size=18),
-    'L': dict(arrow_width=12.0, arrowhead=36, pad_x=32, pad_y=24, font_size=32),
+    'S': dict(arrow_width=6.0, arrowhead=18, pad_x=24, pad_y=12, font_size=12),
+    'M': dict(arrow_width=9.0, arrowhead=27, pad_x=36, pad_y=18, font_size=18),
+    'L': dict(arrow_width=12.0, arrowhead=36, pad_x=48, pad_y=24, font_size=32),
 }
 DEFAULT_SIZE = 'M'
 
